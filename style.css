@@ -4,6 +4,10 @@ html{
     overflow-x: hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(fonts/Norse-Bold.otf);
+}
 
 body{
     display: flex;
@@ -25,11 +29,20 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
+    display: flex;
+    gap: 20px;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.name{
+    font-family: 'Norse-Bold';
+    color: white;
+    font-size: 3rem;
 }
 
 section{
