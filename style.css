@@ -200,3 +200,7 @@ button:hover{
 .login:hover{
     color: black;
 }
+
+.message{
+    color: red;
+}
